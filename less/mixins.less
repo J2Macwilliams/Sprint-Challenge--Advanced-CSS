@@ -1,1 +1,13 @@
 // Mixins Here
+.center(){
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+//Parametric mixin
+.direction(@direction){
+    display:flex;
+    flex-direction: @direction;
+}
