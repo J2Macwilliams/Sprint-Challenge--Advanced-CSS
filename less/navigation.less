@@ -1,1 +1,49 @@
 // Navigation code here
+.container{
+    display:flex;
+    .direction(column);
+    .center();
+
+    h1 {
+        @media @phone {
+            margin:2% 0;
+            padding-top:.5%;
+        }//closes the media query
+
+    }
+    nav {
+        .spacing();
+        width: 55%;
+        margin:2% 0;
+        padding-top:.5%;
+        
+        @media @phone {
+            width:90%;
+        }//closes the media query
+
+        a {
+            font-size: 1.6rem;
+            text-decoration: none;
+
+            &:hover {
+                background-color: #00235f;
+                color: white;
+                // border-radius:5px;
+                padding:0 1 %; 
+                // -webkit-transform: scale(1.3);
+                // -ms-transform: scale(1.3);
+                // transform: scale(1.3);
+            }
+        }//closes the anchor
+
+    }//closes the nav
+
+
+    img {
+        @media @phone {
+            height: 13.5vh;
+        }//closes the media query
+
+    }//closes the image
+
+}//closes the container

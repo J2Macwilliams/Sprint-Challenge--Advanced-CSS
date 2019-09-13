@@ -1,1 +1,28 @@
 // Mixins Here
+.center(){
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.spacing(){
+    display: flex;
+    justify-content: space-evenly;
+}
+
+//Parametric mixin
+.direction(@direction){
+    display:flex;
+    flex-direction: @direction;
+}
+
+.customizeBtn (@background, @color){
+    background: @background;
+    color: @color;
+    width: 100%;
+    height: 4vh;
+    font-size: 1.7rem;
+    border-radius: 5px;
+}
+ 
+//Escaping for Media Queries
+@phone: ~'(max-width:500px)';
