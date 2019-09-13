@@ -301,7 +301,7 @@ footer {
 }
 @media (max-width:500px) {
   .home .walk .walk-text .btn {
-    width: 98%;
+    width: 100%;
   }
 }
 .home .walk .walk-img {
