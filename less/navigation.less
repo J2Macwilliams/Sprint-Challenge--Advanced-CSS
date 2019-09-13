@@ -4,14 +4,22 @@
     .direction(column);
     .center();
 
+    h1 {
+        @media @phone {
+            margin:2% 0;
+            padding-top:.5%;
+        }//closes the media query
+
+    }
     nav {
-        // display: flex;
-        // justify-content: space-evenly;
         .spacing();
         width: 55%;
         margin:2% 0;
         padding-top:.5%;
         
+        @media @phone {
+            width:90%;
+        }//closes the media query
 
         a {
             font-size: 1.6rem;
@@ -21,19 +29,11 @@
     }//closes the nav
 
 
+    img {
+        @media @phone {
+            height: 13.5vh;
+        }//closes the media query
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+    }//closes the image
 
 }//closes the container
