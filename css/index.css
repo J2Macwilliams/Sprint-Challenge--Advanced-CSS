@@ -191,6 +191,10 @@ p {
   font-size: 1.6rem;
   text-decoration: none;
 }
+.container nav a:hover {
+  background-color: blue;
+  color: white;
+}
 @media (max-width:500px) {
   .container img {
     height: 13.5vh;
