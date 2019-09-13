@@ -194,6 +194,9 @@ p {
 .container nav a:hover {
   background-color: blue;
   color: white;
+  -webkit-transform: scale(3);
+  -ms-transform: scale(3);
+  transform: scale(3);
 }
 @media (max-width:500px) {
   .container img {
